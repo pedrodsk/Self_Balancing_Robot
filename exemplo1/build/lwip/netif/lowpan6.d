@@ -34,7 +34,7 @@ netif/lowpan6.o: /home/pedro/esp/esp-idf/components/lwip/netif/lowpan6.c \
  /home/pedro/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -173,7 +173,7 @@ netif/lowpan6.o: /home/pedro/esp/esp-idf/components/lwip/netif/lowpan6.c \
 
 /home/pedro/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/esp32/include/esp_system.h:
 

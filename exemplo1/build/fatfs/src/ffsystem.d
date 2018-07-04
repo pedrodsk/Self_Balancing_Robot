@@ -10,7 +10,7 @@ src/ffsystem.o: /home/pedro/esp/esp-idf/components/fatfs/src/ffsystem.c \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/pedro/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -105,7 +105,7 @@ src/ffsystem.o: /home/pedro/esp/esp-idf/components/fatfs/src/ffsystem.c \
 
 /home/pedro/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

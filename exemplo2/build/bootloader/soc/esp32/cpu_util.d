@@ -6,7 +6,7 @@ esp32/cpu_util.o: /home/pedro/esp/esp-idf/components/soc/esp32/cpu_util.c \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/pedro/esp/exemplo2/build/bootloader/../include/sdkconfig.h
+ /home/pedro/esp/exemplo3/build/bootloader/../include/sdkconfig.h
 
 /home/pedro/esp/esp-idf/components/esp32/include/esp_attr.h:
 
@@ -22,5 +22,5 @@ esp32/cpu_util.o: /home/pedro/esp/esp-idf/components/soc/esp32/cpu_util.c \
 
 /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/pedro/esp/exemplo2/build/bootloader/../include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/bootloader/../include/sdkconfig.h:
 /home/pedro/esp/esp-idf/components/soc/esp32/cpu_util.c:

@@ -35,7 +35,7 @@ time.o: /home/pedro/esp/esp-idf/components/newlib/time.c \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
@@ -165,7 +165,7 @@ time.o: /home/pedro/esp/esp-idf/components/newlib/time.c \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

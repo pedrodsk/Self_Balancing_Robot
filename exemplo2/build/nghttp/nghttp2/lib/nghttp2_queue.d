@@ -31,7 +31,7 @@ nghttp2/lib/nghttp2_queue.o: \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h
 
 /home/pedro/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.h:
@@ -96,7 +96,7 @@ nghttp2/lib/nghttp2_queue.o: \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 /home/pedro/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.c:

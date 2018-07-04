@@ -9,7 +9,7 @@ library/ssl_pkey.o: \
  /home/pedro/esp/esp-idf/components/openssl/include/internal/ssl_methods.h \
  /home/pedro/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/pedro/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -61,7 +61,7 @@ library/ssl_pkey.o: \
 
 /home/pedro/esp/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 

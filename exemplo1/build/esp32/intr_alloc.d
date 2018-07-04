@@ -1,5 +1,5 @@
 intr_alloc.o: /home/pedro/esp/esp-idf/components/esp32/intr_alloc.c \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -81,7 +81,7 @@ intr_alloc.o: /home/pedro/esp/esp-idf/components/esp32/intr_alloc.c \
  /home/pedro/esp/esp-idf/components/log/include/esp_log.h \
  /home/pedro/esp/esp-idf/components/log/include/esp_log_internal.h
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/stdint.h:
 

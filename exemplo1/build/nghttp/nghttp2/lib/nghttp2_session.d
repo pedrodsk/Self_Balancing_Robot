@@ -43,7 +43,7 @@ nghttp2/lib/nghttp2_session.o: \
  /home/pedro/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h \
  /home/pedro/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h \
  /home/pedro/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_net.h \
@@ -138,7 +138,7 @@ nghttp2/lib/nghttp2_session.o: \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

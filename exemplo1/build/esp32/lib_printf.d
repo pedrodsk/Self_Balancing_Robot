@@ -23,7 +23,7 @@ lib_printf.o: /home/pedro/esp/esp-idf/components/esp32/lib_printf.c \
  /home/pedro/esp/esp-idf/components/log/include/esp_log.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -80,7 +80,7 @@ lib_printf.o: /home/pedro/esp/esp-idf/components/esp32/lib_printf.c \
 
 /home/pedro/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

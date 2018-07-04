@@ -16,7 +16,7 @@ library/xmlparse.o: \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/alloca.h \
@@ -70,7 +70,7 @@ library/xmlparse.o: \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h:
 

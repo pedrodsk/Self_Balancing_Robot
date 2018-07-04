@@ -9,7 +9,7 @@ xtensa_init.o: /home/pedro/esp/esp-idf/components/freertos/xtensa_init.c \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
@@ -59,7 +59,7 @@ xtensa_init.o: /home/pedro/esp/esp-idf/components/freertos/xtensa_init.c \
 
 /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

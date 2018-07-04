@@ -22,7 +22,7 @@ port/crypto_hash_mbedtls/crypto_hash_sha512_mbedtls.o: \
  /home/pedro/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
  /home/pedro/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
  /home/pedro/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/pedro/esp/esp-idf/components/newlib/include/limits.h \
  /home/pedro/esp/esp-idf/components/newlib/include/string.h \
@@ -72,7 +72,7 @@ port/crypto_hash_mbedtls/crypto_hash_sha512_mbedtls.o: \
 
 /home/pedro/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

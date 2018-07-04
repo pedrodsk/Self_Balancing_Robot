@@ -18,7 +18,7 @@ heap_trace.o: /home/pedro/esp/esp-idf/components/heap/heap_trace.c \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/heap/include/esp_heap_trace.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -124,7 +124,7 @@ heap_trace.o: /home/pedro/esp/esp-idf/components/heap/heap_trace.c \
 
 /home/pedro/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/heap/include/esp_heap_trace.h:
 

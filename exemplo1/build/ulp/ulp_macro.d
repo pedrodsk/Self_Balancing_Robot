@@ -27,7 +27,7 @@ ulp_macro.o: /home/pedro/esp/esp-idf/components/ulp/ulp_macro.c \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/log/include/esp_log.h \
  /home/pedro/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -95,7 +95,7 @@ ulp_macro.o: /home/pedro/esp/esp-idf/components/ulp/ulp_macro.c \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

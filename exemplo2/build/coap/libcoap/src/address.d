@@ -1,7 +1,7 @@
 libcoap/src/address.o: \
  /home/pedro/esp/esp-idf/components/coap/libcoap/src/address.c \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/pedro/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -118,7 +118,7 @@ libcoap/src/address.o: \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h:
 

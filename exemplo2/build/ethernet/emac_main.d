@@ -25,7 +25,7 @@ emac_main.o: /home/pedro/esp/esp-idf/components/ethernet/emac_main.c \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/alloca.h \
@@ -189,7 +189,7 @@ emac_main.o: /home/pedro/esp/esp-idf/components/ethernet/emac_main.c \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h:
 

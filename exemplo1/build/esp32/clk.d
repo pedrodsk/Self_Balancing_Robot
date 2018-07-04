@@ -20,7 +20,7 @@ clk.o: /home/pedro/esp/esp-idf/components/esp32/clk.c \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/pedro/esp/esp-idf/components/log/include/esp_log.h \
  /home/pedro/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -109,7 +109,7 @@ clk.o: /home/pedro/esp/esp-idf/components/esp32/clk.c \
 
 /home/pedro/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/esp32/include/esp_attr.h:
 

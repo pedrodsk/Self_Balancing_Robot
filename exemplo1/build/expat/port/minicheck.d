@@ -24,7 +24,7 @@ port/minicheck.o: \
  /home/pedro/esp/esp-idf/components/newlib/include/setjmp.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/setjmp.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/expat/include/expat/internal.h \
  /home/pedro/esp/esp-idf/components/expat/port/include/minicheck.h
@@ -77,7 +77,7 @@ port/minicheck.o: \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

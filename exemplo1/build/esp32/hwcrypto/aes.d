@@ -16,7 +16,7 @@ hwcrypto/aes.o: /home/pedro/esp/esp-idf/components/esp32/hwcrypto/aes.c \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/pedro/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/pedro/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/pedro/esp/esp-idf/components/newlib/include/limits.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
@@ -123,7 +123,7 @@ hwcrypto/aes.o: /home/pedro/esp/esp-idf/components/esp32/hwcrypto/aes.c \
 
 /home/pedro/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

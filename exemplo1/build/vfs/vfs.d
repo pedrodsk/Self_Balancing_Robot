@@ -18,7 +18,7 @@ vfs.o: /home/pedro/esp/esp-idf/components/vfs/vfs.c \
  /home/pedro/esp/esp-idf/components/newlib/include/string.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/fcntl.h \
@@ -136,7 +136,7 @@ vfs.o: /home/pedro/esp/esp-idf/components/vfs/vfs.c \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

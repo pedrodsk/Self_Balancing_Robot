@@ -1,5 +1,5 @@
 spiram_psram.o: /home/pedro/esp/esp-idf/components/esp32/spiram_psram.c \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/string.h \
  /home/pedro/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/pedro/esp/esp-idf/components/newlib/include/newlib.h \
@@ -73,7 +73,7 @@ spiram_psram.o: /home/pedro/esp/esp-idf/components/esp32/spiram_psram.c \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  /home/pedro/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/string.h:
 

@@ -16,7 +16,7 @@ cache_utils.o: /home/pedro/esp/esp-idf/components/spi_flash/cache_utils.c \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/alloca.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/newlib/include/string.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -127,7 +127,7 @@ cache_utils.o: /home/pedro/esp/esp-idf/components/spi_flash/cache_utils.c \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

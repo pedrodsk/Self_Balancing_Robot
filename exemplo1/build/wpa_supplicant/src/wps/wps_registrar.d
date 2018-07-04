@@ -32,7 +32,7 @@ src/wps/wps_registrar.o: \
  /home/pedro/esp/esp-idf/components/newlib/include/alloca.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/assert.h \
  /home/pedro/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -127,7 +127,7 @@ src/wps/wps_registrar.o: \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -1,323 +1,323 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+/home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                               (call_start_cpu0)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_init)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (bootloader_clock_configure)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (bootloader_random_enable)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (bootloader_read_flash_id)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_image_load)
-/home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (bootloader_sha256_start)
-/home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
-/home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o) (esp_rom_spiflash_wait_idle)
-/home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (esp_cpu_in_ocd_debug_mode)
-/home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (rtc_vddsdio_get_config)
-/home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o) (rtc_clk_slow_freq_get)
-/home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_init)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (bootloader_clock_configure)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (bootloader_random_enable)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (bootloader_read_flash_id)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_image_load)
+/home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (bootloader_sha256_start)
+/home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
+/home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o) (esp_rom_spiflash_wait_idle)
+/home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (esp_cpu_in_ocd_debug_mode)
+/home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (rtc_vddsdio_get_config)
+/home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o) (rtc_clk_slow_freq_get)
+/home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
+                              /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
+                              /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                              /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o) (__udivdi3)
+                              /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o) (__udivdi3)
 
 Allocating common symbols
 Common symbol       size              file
 
 esp_image_spi_freq_t
-                    0x4               /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                    0x4               /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.prop       0x0000000000000000       0xb4 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- COMMON         0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.lit        0x0000000000000000       0x58 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.prop       0x0000000000000000      0x5e8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.prop       0x0000000000000000       0x48 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.prop       0x0000000000000000       0xcc /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.lit        0x0000000000000000       0x40 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.prop       0x0000000000000000      0x54c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.prop       0x0000000000000000       0xb4 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ COMMON         0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.lit        0x0000000000000000       0x58 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x0000000000000000      0x5e8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.prop       0x0000000000000000       0x48 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.prop       0x0000000000000000       0xcc /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.lit        0x0000000000000000       0x40 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x0000000000000000      0x54c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .literal.bootloader_flash_write
-                0x0000000000000000       0x40 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0x40 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_sector
-                0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_write
-                0x0000000000000000       0xb2 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0xb2 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_sector
-                0x0000000000000000       0x16 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.lit        0x0000000000000000       0x40 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.prop       0x0000000000000000      0x360 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0x16 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x0000000000000000       0x40 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x0000000000000000      0x360 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.write_status_8b_wrsr2
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.read_status_8b_rdsr2
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.write_status_16b_wrsr
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.read_status_16b_rdsr_rdsr2
-                0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.write_status_8b_wrsr
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.read_status_8b_rdsr
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.enable_qio_mode
-                0x0000000000000000       0x30 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x30 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.bootloader_enable_qio_mode
-                0x0000000000000000       0x2c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x2c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.write_status_8b_wrsr2
-                0x0000000000000000       0x13 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x13 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.read_status_8b_rdsr2
-                0x0000000000000000       0x15 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x15 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.write_status_16b_wrsr
-                0x0000000000000000       0x13 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x13 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.read_status_16b_rdsr_rdsr2
-                0x0000000000000000       0x29 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x29 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.write_status_8b_wrsr
-                0x0000000000000000       0x13 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x13 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.read_status_8b_rdsr
-                0x0000000000000000       0x15 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x15 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .rodata.str1.4
-                0x0000000000000000       0xdb /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0xdb /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.enable_qio_mode
-                0x0000000000000000       0x84 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x84 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_enable_qio_mode
-                0x0000000000000000       0xf4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0xf4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .rodata.chip_data
-                0x0000000000000000       0x5a /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .xt.lit        0x0000000000000000       0x50 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .xt.prop       0x0000000000000000      0x2a0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000000000000       0x5a /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .xt.lit        0x0000000000000000       0x50 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .xt.prop       0x0000000000000000      0x2a0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.bootloader_common_check_long_hold_gpio
-                0x0000000000000000       0x24 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000       0x24 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_label_search
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_erase_part_type_data
-                0x0000000000000000       0x60 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000       0x60 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_check_long_hold_gpio
-                0x0000000000000000       0x94 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000       0x94 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .rodata.str1.4
-                0x0000000000000000      0x112 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000      0x112 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_label_search
-                0x0000000000000000       0xac /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000       0xac /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_erase_part_type_data
-                0x0000000000000000      0x126 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xt.lit        0x0000000000000000       0x28 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xt.prop       0x0000000000000000      0x2a0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x0000000000000000      0x144 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000000      0x126 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.lit        0x0000000000000000       0x28 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x0000000000000000      0x2a0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x0000000000000000      0x144 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .literal.esp_image_verify_bootloader
-                0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .rodata        0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .rodata        0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.esp_image_verify_bootloader
-                0x0000000000000000       0x32 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.lit        0x0000000000000000       0x50 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x0000000000000000      0x6a8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .xt.prop       0x0000000000000000      0x198 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000000000000       0x32 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x0000000000000000       0x50 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x0000000000000000      0x6a8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .xt.prop       0x0000000000000000      0x198 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .literal.esp_log_buffer_hex_internal
-                0x0000000000000000       0x50 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x50 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_char_internal
-                0x0000000000000000       0x50 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x50 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_hexdump_internal
-                0x0000000000000000       0x78 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x78 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .rodata.str1.4
-                0x0000000000000000       0xa6 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0xa6 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_hex_internal
-                0x0000000000000000      0x11a /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000      0x11a /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_char_internal
-                0x0000000000000000      0x107 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000      0x107 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_hexdump_internal
-                0x0000000000000000      0x1da /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .xt.lit        0x0000000000000000       0x20 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .xt.prop       0x0000000000000000      0x354 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000      0x1da /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .xt.lit        0x0000000000000000       0x20 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .xt.prop       0x0000000000000000      0x354 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .literal.spi_cache_mode_switch
-                0x0000000000000000       0x38 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x38 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip_internal
-                0x0000000000000000       0x10 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block_internal
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_sector_internal
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_enable_write
-                0x0000000000000000       0x10 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_program_page_internal
-                0x0000000000000000       0x24 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x24 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_lock
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0x30 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x30 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip
-                0x0000000000000000        0xc /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000        0xc /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block
-                0x0000000000000000       0x20 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x20 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_sector
-                0x0000000000000000       0x20 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x20 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write
-                0x0000000000000000       0x28 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x28 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write_encrypted
-                0x0000000000000000       0x10 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_area
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.spi_cache_mode_switch
-                0x0000000000000000      0x266 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000      0x266 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip_internal
-                0x0000000000000000       0x30 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x30 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block_internal
-                0x0000000000000000       0x3c /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x3c /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_sector_internal
-                0x0000000000000000       0x44 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x44 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_enable_write
-                0x0000000000000000       0x3d /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x3d /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_program_page_internal
-                0x0000000000000000       0xee /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xee /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_lock
-                0x0000000000000000       0x4e /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x4e /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0xa0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xa0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .rodata.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip
-                0x0000000000000000       0x24 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x24 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block
-                0x0000000000000000       0x66 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x66 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_sector
-                0x0000000000000000       0x65 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x65 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write
-                0x0000000000000000       0xca /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xca /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write_encrypted
-                0x0000000000000000       0x5a /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x5a /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_area
-                0x0000000000000000       0xbe /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.lit        0x0000000000000000       0xa8 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.prop       0x0000000000000000      0xb1c /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .xt.prop       0x0000000000000000       0xc0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x0000000000000000       0xbe /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.lit        0x0000000000000000       0xa8 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.prop       0x0000000000000000      0xb1c /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .xt.prop       0x0000000000000000       0xc0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
  .literal.rtc_init
-                0x0000000000000000       0xb8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000000       0xb8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
  .text.rtc_init
-                0x0000000000000000      0x344 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .xt.prop       0x0000000000000000       0xfc /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000000      0x344 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .xt.lit        0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .xt.prop       0x0000000000000000       0xfc /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
  .literal.rtc_clk_32k_bootstrap
-                0x0000000000000000       0x34 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x34 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_enabled
-                0x0000000000000000        0x8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_apll_enable
-                0x0000000000000000       0x50 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x50 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_slow_freq_get_hz
-                0x0000000000000000       0x10 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x10 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_from_mhz
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_to_xtal
-                0x0000000000000000       0x30 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x30 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_to_pll
-                0x0000000000000000       0x38 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x38 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_set_fast
-                0x0000000000000000       0x14 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x14 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_bootstrap
-                0x0000000000000000       0xa2 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0xa2 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_enabled
-                0x0000000000000000       0x1a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x1a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_apll_enable
-                0x0000000000000000      0x15a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000      0x15a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_slow_freq_get_hz
-                0x0000000000000000       0x29 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x29 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_from_mhz
-                0x0000000000000000       0x4c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x4c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_to_xtal
-                0x0000000000000000       0x6f /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x6f /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_to_pll
-                0x0000000000000000       0xd1 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0xd1 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_set_fast
-                0x0000000000000000       0x38 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xt.lit        0x0000000000000000       0xd8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xt.prop       0x0000000000000000      0xbac /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x38 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.lit        0x0000000000000000       0xd8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.prop       0x0000000000000000      0xbac /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cal
-                0x0000000000000000        0xc /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000        0xc /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_time_us_to_slowclk
-                0x0000000000000000        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_time_get
-                0x0000000000000000       0x18 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
- .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
- .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x18 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .data          0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .bss           0x0000000000000000        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_clk_cal
-                0x0000000000000000       0x52 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x52 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_us_to_slowclk
-                0x0000000000000000       0x1f /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x1f /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_slowclk_to_us
-                0x0000000000000000       0x1c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x1c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_get
-                0x0000000000000000       0x50 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.lit        0x0000000000000000       0x30 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.prop       0x0000000000000000      0x24c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x50 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.lit        0x0000000000000000       0x30 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.prop       0x0000000000000000      0x24c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .data          0x0000000000000000        0x0 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .bss           0x0000000000000000        0x0 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .xt.lit        0x0000000000000000        0x8 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
@@ -339,12 +339,12 @@ dram_seg         0x000000003fff0000 0x0000000000010000 rw
 Linker script and memory map
 
 START GROUP
-LOAD /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a
-LOAD /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a
-LOAD /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a
-LOAD /home/pedro/esp/exemplo1/build/bootloader/micro-ecc/libmicro-ecc.a
-LOAD /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a
-LOAD /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a
+LOAD /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a
+LOAD /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a
+LOAD /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a
+LOAD /home/pedro/esp/exemplo3/build/bootloader/micro-ecc/libmicro-ecc.a
+LOAD /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a
+LOAD /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a
 LOAD /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
 LOAD /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
 LOAD /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcov.a
@@ -358,104 +358,104 @@ END GROUP
  *(.stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
  *(.iram1 .iram1.*)
  .iram1.literal
-                0x0000000040078000       0x40 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040078000       0x40 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x5c (size before relaxing)
  .iram1.literal
-                0x0000000040078040       0x1c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x0000000040078040       0x1c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
                                          0x30 (size before relaxing)
  .literal.esp_log_early_timestamp
-                0x000000004007805c        0x8 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x000000004007805c        0x8 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .literal       0x0000000040078064        0x8 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .literal.log_invalid_app_partition
-                0x000000004007806c       0x18 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000004007806c       0x18 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x2c (size before relaxing)
  .literal.try_load_partition
-                0x0000000040078084        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078084        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x14 (size before relaxing)
  .literal.set_cache_and_start_app
-                0x0000000040078088       0x24 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078088       0x24 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x30 (size before relaxing)
  .literal.unpack_load_app
-                0x00000000400780ac       0x1c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400780ac       0x1c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x34 (size before relaxing)
  .literal.load_image
-                0x00000000400780c8        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400780c8        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x18 (size before relaxing)
  .literal.bootloader_utility_load_partition_table
-                0x00000000400780cc       0x44 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400780cc       0x44 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x84 (size before relaxing)
  .literal.bootloader_utility_get_selected_boot_partition
-                0x0000000040078110       0x1c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078110       0x1c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x70 (size before relaxing)
  .literal.bootloader_utility_load_boot_image
-                0x000000004007812c       0x10 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000004007812c       0x10 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x5c (size before relaxing)
  .literal.should_map
-                0x000000004007813c        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007813c        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x10 (size before relaxing)
  .literal.verify_image_header
-                0x000000004007813c       0x14 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007813c       0x14 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x2c (size before relaxing)
  .literal.verify_segment_header
-                0x0000000040078150        0xc /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078150        0xc /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x28 (size before relaxing)
  .literal.verify_checksum
-                0x000000004007815c        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007815c        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x1c (size before relaxing)
  .literal.process_segment_data
-                0x0000000040078160        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078160        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x24 (size before relaxing)
  .literal.verify_simple_hash
-                0x0000000040078168        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078168        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x2c (size before relaxing)
  .literal.should_load
-                0x0000000040078170       0x10 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078170       0x10 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x18 (size before relaxing)
  .literal.process_segment
-                0x0000000040078180       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078180       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x60 (size before relaxing)
  .literal.esp_image_load
-                0x00000000400781a0       0x14 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400781a0       0x14 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x7c (size before relaxing)
  .literal.bootloader_fill_random
-                0x00000000400781b4        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400781b4        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .literal.bootloader_random_enable
-                0x00000000400781bc       0x70 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400781bc       0x70 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x78 (size before relaxing)
  .literal.bootloader_random_disable
-                0x000000004007822c       0x1c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000004007822c       0x1c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x4c (size before relaxing)
  .literal.spi_to_esp_err
-                0x0000000040078248        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078248        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
-                0x0000000040078250       0x10 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078250       0x10 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_flash_read_no_decrypt
-                0x0000000040078260        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078260        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_mmap
-                0x0000000040078260       0x14 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078260       0x14 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x50 (size before relaxing)
  .literal.bootloader_munmap
-                0x0000000040078274        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078274        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_flash_read
-                0x0000000040078278        0xc /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078278        0xc /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.esp_partition_table_basic_verify
-                0x0000000040078284       0x30 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040078284       0x30 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0x5c (size before relaxing)
  .literal.bootloader_sha256_start
-                0x00000000400782b4        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400782b4        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .literal.bootloader_sha256_data
-                0x00000000400782bc       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400782bc       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_sha256_finish
-                0x00000000400782dc       0x18 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400782dc       0x18 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0x4c (size before relaxing)
- .iram1         0x00000000400782f4      0x22b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .iram1         0x00000000400782f4      0x22b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  *fill*         0x000000004007851f        0x1 
- .iram1         0x0000000040078520      0x11a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .iram1         0x0000000040078520      0x11a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
                 0x0000000040078520                esp_cpu_stall
                 0x00000000400785b4                esp_cpu_unstall
                 0x0000000040078608                esp_cpu_reset
@@ -464,7 +464,7 @@ END GROUP
  *liblog.a:(.literal .text .literal.* .text.*)
  *fill*         0x000000004007863a        0x2 
  .text.esp_log_early_timestamp
-                0x000000004007863c       0x1f /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x000000004007863c       0x1f /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
                 0x000000004007863c                esp_log_timestamp
                 0x000000004007863c                esp_log_early_timestamp
  *fill*         0x000000004007865b        0x0 
@@ -479,70 +479,70 @@ END GROUP
  *libbootloader_support.a:bootloader_utility.o(.literal .text .literal.* .text.*)
  *fill*         0x0000000040078905        0x3 
  .text.log_invalid_app_partition
-                0x0000000040078908       0x57 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078908       0x57 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x5b (size before relaxing)
  *fill*         0x000000004007895f        0x1 
  .text.try_load_partition
-                0x0000000040078960       0x34 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078960       0x34 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x38 (size before relaxing)
  .text.set_cache_and_start_app
-                0x0000000040078994       0xce /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078994       0xce /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  *fill*         0x0000000040078a62        0x2 
  .text.unpack_load_app
-                0x0000000040078a64       0xb0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078a64       0xb0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0xb4 (size before relaxing)
  .text.load_image
-                0x0000000040078b14       0x1e /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078b14       0x1e /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x26 (size before relaxing)
  *fill*         0x0000000040078b32        0x2 
  .text.bootloader_utility_load_partition_table
-                0x0000000040078b34      0x160 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078b34      0x160 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x17c (size before relaxing)
                 0x0000000040078b34                bootloader_utility_load_partition_table
  .text.bootloader_utility_get_selected_boot_partition
-                0x0000000040078c94      0x140 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078c94      0x140 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x14c (size before relaxing)
                 0x0000000040078c94                bootloader_utility_get_selected_boot_partition
  .text.bootloader_utility_load_boot_image
-                0x0000000040078dd4       0xd7 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078dd4       0xd7 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0xf7 (size before relaxing)
                 0x0000000040078dd4                bootloader_utility_load_boot_image
  *fill*         0x0000000040078eab        0x1 
  .text.index_to_partition
-                0x0000000040078eac       0x48 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078eac       0x48 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  *fill*         0x0000000040078ef4        0x0 
  *fill*         0x0000000040078ef4        0x0 
  *fill*         0x0000000040078ef4        0x0 
  *libbootloader_support.a:esp_image_format.o(.literal .text .literal.* .text.*)
  .text.should_map
-                0x0000000040078ef4       0x30 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078ef4       0x30 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.verify_image_header
-                0x0000000040078f24       0x7e /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078f24       0x7e /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  *fill*         0x0000000040078fa2        0x2 
  .text.verify_segment_header
-                0x0000000040078fa4       0x71 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078fa4       0x71 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x79 (size before relaxing)
  *fill*         0x0000000040079015        0x3 
  .text.verify_checksum
-                0x0000000040079018       0x87 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079018       0x87 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x8f (size before relaxing)
  *fill*         0x000000004007909f        0x1 
  .text.process_segment_data
-                0x00000000400790a0       0xa4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400790a0       0xa4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0xb0 (size before relaxing)
  .text.verify_simple_hash
-                0x0000000040079144       0x5b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079144       0x5b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x6a (size before relaxing)
  *fill*         0x000000004007919f        0x1 
  .text.should_load
-                0x00000000400791a0       0x44 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400791a0       0x44 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x48 (size before relaxing)
  .text.process_segment
-                0x00000000400791e4      0x13a /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400791e4      0x13a /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x146 (size before relaxing)
  *fill*         0x000000004007931e        0x2 
  .text.esp_image_load
-                0x0000000040079320      0x256 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079320      0x256 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x272 (size before relaxing)
                 0x0000000040079320                esp_image_load
  *fill*         0x0000000040079576        0x0 
@@ -554,42 +554,42 @@ END GROUP
  *libbootloader_support.a:bootloader_random.o(.literal .text .literal.* .text.*)
  *fill*         0x0000000040079576        0x2 
  .text.bootloader_fill_random
-                0x0000000040079578       0x59 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040079578       0x59 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x0000000040079578                bootloader_fill_random
  *fill*         0x00000000400795d1        0x3 
  .text.bootloader_random_enable
-                0x00000000400795d4      0x1d5 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400795d4      0x1d5 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x00000000400795d4                bootloader_random_enable
  *fill*         0x00000000400797a9        0x3 
  .text.bootloader_random_disable
-                0x00000000400797ac      0x11c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400797ac      0x11c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x00000000400797ac                bootloader_random_disable
  *fill*         0x00000000400798c8        0x0 
  *fill*         0x00000000400798c8        0x0 
  *fill*         0x00000000400798c8        0x0 
  *libbootloader_support.a:bootloader_flash.o(.literal .text .literal.* .text.*)
  .text.spi_to_esp_err
-                0x00000000400798c8       0x22 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400798c8       0x22 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x00000000400798ea        0x2 
  .text.bootloader_flash_read_allow_decrypt
-                0x00000000400798ec       0x97 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400798ec       0x97 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x9b (size before relaxing)
  *fill*         0x0000000040079983        0x1 
  .text.bootloader_flash_read_no_decrypt
-                0x0000000040079984       0x32 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040079984       0x32 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x36 (size before relaxing)
  *fill*         0x00000000400799b6        0x2 
  .text.bootloader_mmap
-                0x00000000400799b8       0xb1 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400799b8       0xb1 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0xb9 (size before relaxing)
                 0x00000000400799b8                bootloader_mmap
  *fill*         0x0000000040079a69        0x3 
  .text.bootloader_munmap
-                0x0000000040079a6c       0x36 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040079a6c       0x36 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                 0x0000000040079a6c                bootloader_munmap
  *fill*         0x0000000040079aa2        0x2 
  .text.bootloader_flash_read
-                0x0000000040079aa4       0x86 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040079aa4       0x86 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                 0x0000000040079aa4                bootloader_flash_read
  *fill*         0x0000000040079b2a        0x0 
  *fill*         0x0000000040079b2a        0x0 
@@ -599,23 +599,23 @@ END GROUP
  *libbootloader_support.a:flash_partitions.o(.literal .text .literal.* .text.*)
  *fill*         0x0000000040079b2a        0x2 
  .text.esp_partition_table_basic_verify
-                0x0000000040079b2c      0x143 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040079b2c      0x143 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                         0x14f (size before relaxing)
                 0x0000000040079b2c                esp_partition_table_basic_verify
  *fill*         0x0000000040079c6f        0x0 
  *libbootloader_support.a:bootloader_sha.o(.literal .text .literal.* .text.*)
  *fill*         0x0000000040079c6f        0x1 
  .text.bootloader_sha256_start
-                0x0000000040079c70       0x12 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040079c70       0x12 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                 0x0000000040079c70                bootloader_sha256_start
  *fill*         0x0000000040079c82        0x2 
  .text.bootloader_sha256_data
-                0x0000000040079c84       0xa1 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040079c84       0xa1 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xa9 (size before relaxing)
                 0x0000000040079c84                bootloader_sha256_data
  *fill*         0x0000000040079d25        0x3 
  .text.bootloader_sha256_finish
-                0x0000000040079d28       0xdc /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040079d28       0xdc /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xf0 (size before relaxing)
                 0x0000000040079d28                bootloader_sha256_finish
  *fill*         0x0000000040079e04        0x0 
@@ -636,332 +636,332 @@ END GROUP
                 0x0000000040080000                _text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
  .literal.selected_boot_partition
-                0x0000000040080000        0x0 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080000        0x0 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0x4 (size before relaxing)
  .literal.select_partition_number
-                0x0000000040080000        0xc /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080000        0xc /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x18 (size before relaxing)
  .literal.call_start_cpu0
-                0x000000004008000c        0x4 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004008000c        0x4 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x10 (size before relaxing)
  .literal.wdt_reset_cpu0_info_enable
-                0x0000000040080010        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080010        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .literal.wdt_reset_info_dump
-                0x0000000040080014       0x5c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080014       0x5c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x6c (size before relaxing)
  .literal.print_flash_info
-                0x0000000040080070       0x4c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080070       0x4c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x68 (size before relaxing)
  .literal.vddsdio_configure
-                0x00000000400800bc        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400800bc        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                           0xc (size before relaxing)
  .literal.uart_console_configure
-                0x00000000400800c0       0x14 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400800c0       0x14 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x18 (size before relaxing)
  .literal.wdt_reset_check
-                0x00000000400800d4        0xc /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400800d4        0xc /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x30 (size before relaxing)
  .literal.update_flash_config
-                0x00000000400800e0       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400800e0       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .literal.bootloader_main
-                0x0000000040080100       0x24 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080100       0x24 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x7c (size before relaxing)
  .literal.__assert_func
-                0x0000000040080124        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080124        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x10 (size before relaxing)
  .literal.bootloader_init
-                0x0000000040080128       0x48 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080128       0x48 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x74 (size before relaxing)
  .literal.bootloader_clock_configure
-                0x0000000040080170       0x10 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x0000000040080170       0x10 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                          0x20 (size before relaxing)
  .literal.execute_flash_command
-                0x0000000040080180       0x38 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000040080180       0x38 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                          0x3c (size before relaxing)
  .literal.bootloader_read_flash_id
-                0x00000000400801b8        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000400801b8        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                           0x8 (size before relaxing)
  .literal.bootloader_common_ota_select_crc
-                0x00000000400801bc        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000400801bc        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_ota_select_valid
-                0x00000000400801c0        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000400801c0        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                                           0x4 (size before relaxing)
  .literal.esp_rom_spiflash_read_status
-                0x00000000400801c0       0x10 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801c0       0x10 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_wait_idle
-                0x00000000400801d0        0x8 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801d0        0x8 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_read_data
-                0x00000000400801d8        0xc /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801d8        0xc /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x18 (size before relaxing)
  .literal.esp_rom_spiflash_read_statushigh
-                0x00000000400801e4        0x4 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801e4        0x4 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_write_status
-                0x00000000400801e8        0x4 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801e8        0x4 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_unlock
-                0x00000000400801ec        0xc /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801ec        0xc /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x28 (size before relaxing)
  .literal.esp_rom_spiflash_read
-                0x00000000400801f8       0x38 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400801f8       0x38 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x5c (size before relaxing)
  .literal.rtc_vddsdio_get_config
-                0x0000000040080230       0x2c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000040080230       0x2c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
                                          0x30 (size before relaxing)
  .literal.rtc_vddsdio_set_config
-                0x000000004008025c        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x000000004008025c        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_32k_enable_internal
-                0x000000004008025c       0x14 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008025c       0x14 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_enable
-                0x0000000040080270        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080270        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_8m_enable
-                0x0000000040080274        0xc /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080274        0xc /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x10 (size before relaxing)
  .literal.rtc_clk_8m_enabled
-                0x0000000040080280        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080280        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_8md256_enabled
-                0x0000000040080280        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080280        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x0000000040080280       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080280       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x4c (size before relaxing)
  .literal.rtc_clk_slow_freq_set
-                0x00000000400802a0        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802a0        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_slow_freq_get
-                0x00000000400802a4        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802a4        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_fast_freq_set
-                0x00000000400802a4        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802a4        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_fast_freq_get
-                0x00000000400802a4        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802a4        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_bbpll_set
-                0x00000000400802a4       0x10 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802a4       0x10 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x38 (size before relaxing)
  .literal.rtc_clk_xtal_freq_get
-                0x00000000400802b4        0x8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802b4        0x8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x1c (size before relaxing)
  .literal.rtc_clk_cpu_freq_get
-                0x00000000400802bc       0x14 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802bc       0x14 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x28 (size before relaxing)
  .literal.rtc_clk_cpu_freq_value
-                0x00000000400802d0       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802d0       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x2c (size before relaxing)
  .literal.rtc_clk_xtal_freq_update
-                0x00000000400802f0        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802f0        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_apb_freq_update
-                0x00000000400802f0        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802f0        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_cpu_freq_set
-                0x00000000400802f4       0x1c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400802f4       0x1c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x78 (size before relaxing)
  .literal.rtc_clk_apb_freq_get
-                0x0000000040080310        0x8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080310        0x8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x14 (size before relaxing)
  .literal.rtc_clk_init
-                0x0000000040080318       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040080318       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x94 (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x0000000040080338       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040080338       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x3c (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x0000000040080358        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040080358        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_wait_for_slow_cycle
-                0x0000000040080358        0x8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040080358        0x8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x20 (size before relaxing)
  .text.selected_boot_partition
-                0x0000000040080360        0xc /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080360        0xc /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x10 (size before relaxing)
  .text.select_partition_number
-                0x000000004008036c       0x30 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004008036c       0x30 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x34 (size before relaxing)
  .text.call_start_cpu0
-                0x000000004008039c       0x2a /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004008039c       0x2a /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x32 (size before relaxing)
                 0x000000004008039c                call_start_cpu0
  *fill*         0x00000000400803c6        0x2 
  .text.wdt_reset_cpu0_info_enable
-                0x00000000400803c8       0x27 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400803c8       0x27 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  *fill*         0x00000000400803ef        0x1 
  .text.wdt_reset_info_dump
-                0x00000000400803f0       0xe6 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400803f0       0xe6 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  *fill*         0x00000000400804d6        0x2 
  .text.print_flash_info
-                0x00000000400804d8       0xf6 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400804d8       0xf6 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  *fill*         0x00000000400805ce        0x2 
  .text.vddsdio_configure
-                0x00000000400805d0       0x33 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400805d0       0x33 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x37 (size before relaxing)
  *fill*         0x0000000040080603        0x1 
  .text.uart_console_configure
-                0x0000000040080604       0x36 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080604       0x36 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x3a (size before relaxing)
  *fill*         0x000000004008063a        0x2 
  .text.wdt_reset_check
-                0x000000004008063c       0xa2 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000004008063c       0xa2 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0xae (size before relaxing)
  *fill*         0x00000000400806de        0x2 
  .text.update_flash_config
-                0x00000000400806e0       0x68 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400806e0       0x68 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .text.bootloader_main
-                0x0000000040080748       0xbc /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080748       0xbc /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0xe8 (size before relaxing)
  .text.__assert_func
-                0x0000000040080804       0x1f /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080804       0x1f /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x23 (size before relaxing)
                 0x0000000040080804                __assert_func
  *fill*         0x0000000040080823        0x1 
  .text.bootloader_init
-                0x0000000040080824      0x12a /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080824      0x12a /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0x136 (size before relaxing)
                 0x0000000040080824                bootloader_init
  *fill*         0x000000004008094e        0x2 
  .text.bootloader_clock_configure
-                0x0000000040080950       0x6e /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x0000000040080950       0x6e /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                          0x76 (size before relaxing)
                 0x0000000040080950                bootloader_clock_configure
  *fill*         0x00000000400809be        0x2 
  .text.execute_flash_command
-                0x00000000400809c0      0x190 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000400809c0      0x190 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_read_flash_id
-                0x0000000040080b50       0x27 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000040080b50       0x27 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                          0x2b (size before relaxing)
                 0x0000000040080b50                bootloader_read_flash_id
  *fill*         0x0000000040080b77        0x1 
  .text.bootloader_common_ota_select_crc
-                0x0000000040080b78       0x14 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040080b78       0x14 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                 0x0000000040080b78                bootloader_common_ota_select_crc
  .text.bootloader_common_ota_select_valid
-                0x0000000040080b8c       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040080b8c       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                                          0x24 (size before relaxing)
                 0x0000000040080b8c                bootloader_common_ota_select_valid
  .text.esp_rom_spiflash_read_status
-                0x0000000040080bac       0x61 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080bac       0x61 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x0000000040080bac                esp_rom_spiflash_read_status
  *fill*         0x0000000040080c0d        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x0000000040080c10       0x32 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080c10       0x32 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x0000000040080c10                esp_rom_spiflash_wait_idle
  *fill*         0x0000000040080c42        0x2 
  .text.esp_rom_spiflash_read_data
-                0x0000000040080c44       0xe2 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080c44       0xe2 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  *fill*         0x0000000040080d26        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x0000000040080d28       0x21 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080d28       0x21 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x0000000040080d28                esp_rom_spiflash_read_statushigh
  *fill*         0x0000000040080d49        0x3 
  .text.esp_rom_spiflash_write_status
-                0x0000000040080d4c       0x34 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080d4c       0x34 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x38 (size before relaxing)
                 0x0000000040080d4c                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x0000000040080d80       0x6a /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080d80       0x6a /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x7e (size before relaxing)
                 0x0000000040080d80                esp_rom_spiflash_unlock
  *fill*         0x0000000040080dea        0x2 
  .text.esp_rom_spiflash_read
-                0x0000000040080dec      0x284 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040080dec      0x284 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x0000000040080dec                esp_rom_spiflash_read
  .text.rtc_vddsdio_get_config
-                0x0000000040081070      0x104 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000040081070      0x104 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
                 0x0000000040081070                rtc_vddsdio_get_config
  .text.rtc_vddsdio_set_config
-                0x0000000040081174       0x46 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000040081174       0x46 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
                 0x0000000040081174                rtc_vddsdio_set_config
  *fill*         0x00000000400811ba        0x2 
  .text.rtc_clk_32k_enable_internal
-                0x00000000400811bc       0x81 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400811bc       0x81 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *fill*         0x000000004008123d        0x3 
  .text.rtc_clk_32k_enable
-                0x0000000040081240       0x2d /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081240       0x2d /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040081240                rtc_clk_32k_enable
  *fill*         0x000000004008126d        0x3 
  .text.rtc_clk_8m_enable
-                0x0000000040081270       0x9d /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081270       0x9d /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040081270                rtc_clk_8m_enable
  *fill*         0x000000004008130d        0x3 
  .text.rtc_clk_8m_enabled
-                0x0000000040081310       0x19 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081310       0x19 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040081310                rtc_clk_8m_enabled
  *fill*         0x0000000040081329        0x3 
  .text.rtc_clk_8md256_enabled
-                0x000000004008132c       0x1a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008132c       0x1a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x000000004008132c                rtc_clk_8md256_enabled
  *fill*         0x0000000040081346        0x2 
  .text.rtc_clk_xtal_freq_estimate
-                0x0000000040081348       0xa6 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081348       0xa6 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0xb2 (size before relaxing)
  *fill*         0x00000000400813ee        0x2 
  .text.rtc_clk_slow_freq_set
-                0x00000000400813f0       0x48 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400813f0       0x48 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x00000000400813f0                rtc_clk_slow_freq_set
  .text.rtc_clk_slow_freq_get
-                0x0000000040081438       0x10 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081438       0x10 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040081438                rtc_clk_slow_freq_get
  .text.rtc_clk_fast_freq_set
-                0x0000000040081448       0x2a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081448       0x2a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040081448                rtc_clk_fast_freq_set
  *fill*         0x0000000040081472        0x2 
  .text.rtc_clk_fast_freq_get
-                0x0000000040081474       0x10 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081474       0x10 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040081474                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_set
-                0x0000000040081484      0x170 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081484      0x170 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x178 (size before relaxing)
                 0x0000000040081484                rtc_clk_bbpll_set
  .text.rtc_clk_xtal_freq_get
-                0x00000000400815f4       0x38 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400815f4       0x38 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x3c (size before relaxing)
                 0x00000000400815f4                rtc_get_xtal
                 0x00000000400815f4                rtc_clk_xtal_freq_get
  .text.rtc_clk_cpu_freq_get
-                0x000000004008162c       0x88 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008162c       0x88 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x94 (size before relaxing)
                 0x000000004008162c                rtc_clk_cpu_freq_get
  .text.rtc_clk_cpu_freq_value
-                0x00000000400816b4       0x44 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400816b4       0x44 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x48 (size before relaxing)
                 0x00000000400816b4                rtc_clk_cpu_freq_value
  .text.rtc_clk_xtal_freq_update
-                0x00000000400816f8       0x12 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400816f8       0x12 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
                 0x00000000400816f8                rtc_clk_xtal_freq_update
  *fill*         0x000000004008170a        0x2 
  .text.rtc_clk_apb_freq_update
-                0x000000004008170c       0x13 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008170c       0x13 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
                 0x000000004008170c                rtc_clk_apb_freq_update
  *fill*         0x000000004008171f        0x1 
  .text.rtc_clk_cpu_freq_set
-                0x0000000040081720      0x1bc /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081720      0x1bc /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1d0 (size before relaxing)
                 0x0000000040081720                rtc_clk_cpu_freq_set
  .text.rtc_clk_apb_freq_get
-                0x00000000400818dc       0x2a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400818dc       0x2a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x00000000400818dc                rtc_clk_apb_freq_get
  *fill*         0x0000000040081906        0x2 
  .text.rtc_clk_init
-                0x0000000040081908      0x182 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081908      0x182 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1ba (size before relaxing)
                 0x0000000040081908                rtc_clk_init
  *fill*         0x0000000040081a8a        0x2 
  .text.rtc_clk_cal_internal
-                0x0000000040081a8c      0x180 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081a8c      0x180 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_clk_cal_ratio
-                0x0000000040081c0c       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081c0c       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x24 (size before relaxing)
                 0x0000000040081c0c                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x0000000040081c2c       0x79 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081c2c       0x79 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
                 0x0000000040081c2c                rtc_clk_wait_for_slow_cycle
  *fill*         0x0000000040081ca5        0x0 
  *fill*         0x0000000040081ca5        0x0 
@@ -982,11 +982,11 @@ END GROUP
  *fill*         0x0000000040081ca5        0x0 
  *fill*         0x0000000040081ca5        0x3 
  .text.clk_val_is_valid
-                0x0000000040081ca8       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081ca8       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.reg_val_to_clk_val
-                0x0000000040081cc8        0x8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081cc8        0x8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.clk_val_to_reg_val
-                0x0000000040081cd0        0xe /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081cd0        0xe /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *fill*         0x0000000040081cde        0x0 
  *fill*         0x0000000040081cde        0x0 
  *fill*         0x0000000040081cde        0x0 
@@ -1019,16 +1019,16 @@ END GROUP
  *(.dynbss)
  *(.bss)
  *(.bss.*)
- .bss.mapped    0x000000003fff0000        0x1 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss.mapped    0x000000003fff0000        0x1 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x000000003fff0001        0x3 
  .bss.ram_obfs_value
-                0x000000003fff0004        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0004        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .bss.words_hashed
-                0x000000003fff000c        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff000c        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .bss.s_cur_freq
-                0x000000003fff0010        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff0010        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .bss.s_cur_pll
-                0x000000003fff0014        0x4 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff0014        0x4 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0x000000003fff0018                . = ALIGN (0x8)
@@ -1039,7 +1039,7 @@ END GROUP
  *(.data)
  *(.data.*)
  .data.current_read_mapping
-                0x000000003fff0018        0x4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000003fff0018        0x4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *(.gnu.linkonce.d.*)
  *(.data1)
  *(.sdata)
@@ -1054,54 +1054,54 @@ END GROUP
 .dram0.rodata   0x000000003fff001c     0x1648
                 0x000000003fff001c                _rodata_start = ABSOLUTE (.)
  *(.rodata)
- .rodata        0x000000003fff001c       0x14 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .rodata        0x000000003fff0030        0x8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .rodata        0x000000003fff001c       0x14 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .rodata        0x000000003fff0030        0x8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  *(.rodata.*)
  .rodata.str1.4
-                0x000000003fff0038       0x3b /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000003fff0038       0x3b /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003fff0073        0x1 
  .rodata.str1.4
-                0x000000003fff0074      0x3ae /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003fff0074      0x3ae /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0x3b6 (size before relaxing)
  *fill*         0x000000003fff0422        0x2 
  .rodata.__func__$4357
-                0x000000003fff0424       0x10 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003fff0424       0x10 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata.str1.4
-                0x000000003fff0434      0x5a5 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003fff0434      0x5a5 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x5ad (size before relaxing)
  *fill*         0x000000003fff09d9        0x3 
  .rodata.str1.4
-                0x000000003fff09dc      0x28e /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000003fff09dc      0x28e /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x000000003fff0c6a        0x2 
  .rodata.str1.4
-                0x000000003fff0c6c      0x163 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x000000003fff0c6c      0x163 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  *fill*         0x000000003fff0dcf        0x1 
  .rodata.str1.4
-                0x000000003fff0dd0      0x45a /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0dd0      0x45a /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x49a (size before relaxing)
  *fill*         0x000000003fff122a        0x2 
  .rodata.str1.4
-                0x000000003fff122c       0xc8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff122c       0xc8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$3047
-                0x000000003fff12f4       0x40 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff12f4       0x40 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$3043
-                0x000000003fff1334       0x19 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff1334       0x19 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  *fill*         0x000000003fff134d        0x3 
  .rodata.__func__$3023
-                0x000000003fff1350       0x17 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff1350       0x17 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  *fill*         0x000000003fff1367        0x1 
  .rodata.str1.4
-                0x000000003fff1368      0x254 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff1368      0x254 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x251 (size before relaxing)
  .rodata.rtc_clk_xtal_freq_estimate
-                0x000000003fff15bc       0x64 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff15bc       0x64 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.rtc_clk_cpu_freq_value
-                0x000000003fff1620       0x14 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff1620       0x14 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.__func__$2844
-                0x000000003fff1634       0x17 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff1634       0x17 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *fill*         0x000000003fff164b        0x1 
  .rodata.__func__$2829
-                0x000000003fff164c       0x15 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff164c       0x15 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
                 0x000000003fff1661                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
@@ -2967,206 +2967,206 @@ END GROUP
                 [!provide]                        PROVIDE (I2S1, 0x3ff6d000)
                 [!provide]                        PROVIDE (UART2, 0x3ff6e000)
                 0x0000000040008550                PROVIDE (ets_update_cpu_frequency, 0x40008550)
-OUTPUT(/home/pedro/esp/exemplo1/build/bootloader/bootloader.elf elf32-xtensa-le)
+OUTPUT(/home/pedro/esp/exemplo3/build/bootloader/bootloader.elf elf32-xtensa-le)
 
 .debug_frame    0x0000000000000000      0xdd8
- .debug_frame   0x0000000000000000       0x58 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_frame   0x0000000000000058      0x118 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_frame   0x0000000000000170       0x28 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_frame   0x0000000000000198       0x58 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x00000000000001f0       0xe8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_frame   0x00000000000002d8       0xd0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x00000000000003a8      0x100 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_frame   0x00000000000004a8       0x88 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_frame   0x0000000000000530       0x28 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x0000000000000558      0x100 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x0000000000000658       0x58 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_frame   0x00000000000006b0       0x70 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x0000000000000720      0x208 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_frame   0x0000000000000928       0x70 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_frame   0x0000000000000998       0x58 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_frame   0x00000000000009f0      0x2e0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_frame   0x0000000000000cd0       0xb8 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_frame   0x0000000000000000       0x58 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_frame   0x0000000000000058      0x118 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_frame   0x0000000000000170       0x28 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_frame   0x0000000000000198       0x58 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_frame   0x00000000000001f0       0xe8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x00000000000002d8       0xd0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000000000003a8      0x100 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_frame   0x00000000000004a8       0x88 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x0000000000000530       0x28 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x0000000000000558      0x100 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x0000000000000658       0x58 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_frame   0x00000000000006b0       0x70 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x0000000000000720      0x208 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x0000000000000928       0x70 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_frame   0x0000000000000998       0x58 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_frame   0x00000000000009f0      0x2e0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_frame   0x0000000000000cd0       0xb8 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_frame   0x0000000000000d88       0x28 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_frame   0x0000000000000db0       0x28 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_info     0x0000000000000000     0xc188
- .debug_info    0x0000000000000000      0x350 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x0000000000000350     0x155a /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_info    0x00000000000018aa      0x279 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x0000000000001b23      0x1fe /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0000000000001d21     0x1430 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_info    0x0000000000003151      0xbfa /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x0000000000003d4b     0x298f /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_info    0x00000000000066da      0x769 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_info    0x0000000000006e43      0x526 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x0000000000007369     0x1291 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x00000000000085fa      0x44d /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x0000000000008a47      0x900 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x0000000000009347      0xaf5 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x0000000000009e3c      0x118 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_info    0x0000000000009f54      0x339 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_info    0x000000000000a28d     0x14bc /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x000000000000b749      0x3aa /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x0000000000000000      0x350 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x0000000000000350     0x155a /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x00000000000018aa      0x279 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x0000000000001b23      0x1fe /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0000000000001d21     0x1430 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x0000000000003151      0xbfa /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x0000000000003d4b     0x298f /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_info    0x00000000000066da      0x769 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x0000000000006e43      0x526 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x0000000000007369     0x1291 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x00000000000085fa      0x44d /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x0000000000008a47      0x900 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x0000000000009347      0xaf5 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x0000000000009e3c      0x118 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_info    0x0000000000009f54      0x339 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_info    0x000000000000a28d     0x14bc /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x000000000000b749      0x3aa /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_info    0x000000000000baf3       0xcd /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_info    0x000000000000bbc0      0x5c8 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x0000000000000000     0x240e
- .debug_abbrev  0x0000000000000000      0x168 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_abbrev  0x0000000000000168      0x416 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_abbrev  0x000000000000057e      0x108 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_abbrev  0x0000000000000686      0x107 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x000000000000078d      0x37b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_abbrev  0x0000000000000b08      0x22f /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x0000000000000d37      0x331 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_abbrev  0x0000000000001068      0x18d /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_abbrev  0x00000000000011f5      0x17b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x0000000000001370      0x2a4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x0000000000001614      0x17d /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_abbrev  0x0000000000001791      0x1f3 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x0000000000001984      0x22e /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_abbrev  0x0000000000001bb2       0x96 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_abbrev  0x0000000000001c48      0x135 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_abbrev  0x0000000000001d7d      0x358 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_abbrev  0x00000000000020d5      0x17a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_abbrev  0x0000000000000000      0x168 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x0000000000000168      0x416 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_abbrev  0x000000000000057e      0x108 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_abbrev  0x0000000000000686      0x107 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x000000000000078d      0x37b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x0000000000000b08      0x22f /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x0000000000000d37      0x331 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_abbrev  0x0000000000001068      0x18d /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x00000000000011f5      0x17b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x0000000000001370      0x2a4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x0000000000001614      0x17d /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_abbrev  0x0000000000001791      0x1f3 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x0000000000001984      0x22e /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x0000000000001bb2       0x96 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_abbrev  0x0000000000001c48      0x135 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_abbrev  0x0000000000001d7d      0x358 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x00000000000020d5      0x17a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_abbrev  0x000000000000224f       0x60 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_abbrev  0x00000000000022af      0x15f /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_loc      0x0000000000000000     0x5091
- .debug_loc     0x0000000000000000       0x79 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_loc     0x0000000000000079      0x761 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_loc     0x00000000000007da       0x45 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x000000000000081f      0x86c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_loc     0x000000000000108b      0x638 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x00000000000016c3      0x232 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_loc     0x00000000000018f5      0x2cd /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_loc     0x0000000000001bc2      0x1b6 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x0000000000001d78      0xac1 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x0000000000002839      0x135 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x000000000000296e      0x4ad /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x0000000000002e1b      0xa20 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x000000000000383b       0x13 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_loc     0x000000000000384e      0x245 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_loc     0x0000000000003a93      0xa18 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x00000000000044ab      0x1dd /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x0000000000000000       0x79 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_loc     0x0000000000000079      0x761 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_loc     0x00000000000007da       0x45 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x000000000000081f      0x86c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x000000000000108b      0x638 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x00000000000016c3      0x232 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_loc     0x00000000000018f5      0x2cd /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x0000000000001bc2      0x1b6 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x0000000000001d78      0xac1 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x0000000000002839      0x135 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x000000000000296e      0x4ad /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x0000000000002e1b      0xa20 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x000000000000383b       0x13 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_loc     0x000000000000384e      0x245 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_loc     0x0000000000003a93      0xa18 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x00000000000044ab      0x1dd /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_loc     0x0000000000004688       0x21 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_loc     0x00000000000046a9      0x9e8 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x0000000000000000      0x600
  .debug_aranges
-                0x0000000000000000       0x30 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000000000000       0x30 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
-                0x0000000000000030       0x70 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000000000030       0x70 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_aranges
-                0x00000000000000a0       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x00000000000000a0       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .debug_aranges
-                0x00000000000000c0       0x30 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000000000c0       0x30 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x00000000000000f0       0x60 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000000000f0       0x60 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .debug_aranges
-                0x0000000000000150       0x58 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000150       0x58 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x00000000000001a8       0x68 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000000001a8       0x68 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .debug_aranges
-                0x0000000000000210       0x40 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000210       0x40 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .debug_aranges
-                0x0000000000000250       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000250       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x0000000000000270       0x68 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000270       0x68 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x00000000000002d8       0x30 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000000002d8       0x30 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .debug_aranges
-                0x0000000000000308       0x38 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000308       0x38 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x0000000000000340       0xc0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000340       0xc0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .debug_aranges
-                0x0000000000000400       0x38 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x0000000000000400       0x38 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
  .debug_aranges
-                0x0000000000000438       0x30 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000438       0x30 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
  .debug_aranges
-                0x0000000000000468      0x108 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000468      0x108 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x0000000000000570       0x50 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000570       0x50 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_aranges
                 0x00000000000005c0       0x20 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_aranges
                 0x00000000000005e0       0x20 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_ranges   0x0000000000000000      0x600
- .debug_ranges  0x0000000000000000       0x20 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_ranges  0x0000000000000020       0x60 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_ranges  0x0000000000000080       0x10 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_ranges  0x0000000000000090       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x00000000000000b0       0x68 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_ranges  0x0000000000000118       0x48 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x0000000000000160       0x58 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_ranges  0x00000000000001b8       0x78 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_ranges  0x0000000000000230       0x58 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x0000000000000288       0x70 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x00000000000002f8       0x20 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_ranges  0x0000000000000318       0x28 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x0000000000000340       0xb0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_ranges  0x00000000000003f0       0x28 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_ranges  0x0000000000000418       0x20 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_ranges  0x0000000000000438      0x128 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_ranges  0x0000000000000560       0x40 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_ranges  0x0000000000000000       0x20 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_ranges  0x0000000000000020       0x60 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_ranges  0x0000000000000080       0x10 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_ranges  0x0000000000000090       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_ranges  0x00000000000000b0       0x68 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x0000000000000118       0x48 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x0000000000000160       0x58 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_ranges  0x00000000000001b8       0x78 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x0000000000000230       0x58 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x0000000000000288       0x70 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x00000000000002f8       0x20 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_ranges  0x0000000000000318       0x28 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x0000000000000340       0xb0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x00000000000003f0       0x28 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_ranges  0x0000000000000418       0x20 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_ranges  0x0000000000000438      0x128 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_ranges  0x0000000000000560       0x40 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_ranges  0x00000000000005a0       0x60 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_line     0x0000000000000000     0x6205
- .debug_line    0x0000000000000000      0x332 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x0000000000000332      0x91b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x0000000000000c4d      0x1d0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000000000000e1d      0x380 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x000000000000119d      0x8cb /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x0000000000001a68      0x562 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x0000000000001fca      0x4d2 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x000000000000249c      0x539 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x00000000000029d5      0x330 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000002d05      0xa2c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000003731      0x3b3 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x0000000000003ae4      0x4ce /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x0000000000003fb2      0xac2 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000000000004a74      0x188 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_line    0x0000000000004bfc      0x3c6 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x0000000000004fc2      0xca2 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x0000000000005c64      0x38a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x0000000000000000      0x332 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000332      0x91b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x0000000000000c4d      0x1d0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x0000000000000e1d      0x380 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000000000000119d      0x8cb /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x0000000000001a68      0x562 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000001fca      0x4d2 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x000000000000249c      0x539 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x00000000000029d5      0x330 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x0000000000002d05      0xa2c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000003731      0x3b3 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x0000000000003ae4      0x4ce /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x0000000000003fb2      0xac2 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000000000004a74      0x188 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_line    0x0000000000004bfc      0x3c6 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x0000000000004fc2      0xca2 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x0000000000005c64      0x38a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_line    0x0000000000005fee       0x89 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_line    0x0000000000006077      0x18e /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_str      0x0000000000000000     0x4189
- .debug_str     0x0000000000000000      0x35c /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_str     0x0000000000000000      0x35c /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                         0x3c0 (size before relaxing)
- .debug_str     0x000000000000035c      0x8d8 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_str     0x000000000000035c      0x8d8 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0xb2e (size before relaxing)
- .debug_str     0x0000000000000c34      0x232 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_str     0x0000000000000c34      0x232 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                         0x386 (size before relaxing)
- .debug_str     0x0000000000000e66       0xa7 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_str     0x0000000000000e66       0xa7 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                         0x22d (size before relaxing)
- .debug_str     0x0000000000000f0d      0x33f /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_str     0x0000000000000f0d      0x33f /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x8f1 (size before relaxing)
- .debug_str     0x000000000000124c      0x220 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_str     0x000000000000124c      0x220 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                         0x56d (size before relaxing)
- .debug_str     0x000000000000146c     0x1849 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_str     0x000000000000146c     0x1849 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                        0x1b6e (size before relaxing)
- .debug_str     0x0000000000002cb5      0x23d /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_str     0x0000000000002cb5      0x23d /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                                         0x571 (size before relaxing)
- .debug_str     0x0000000000002ef2       0xb4 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_str     0x0000000000002ef2       0xb4 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                         0x3c0 (size before relaxing)
- .debug_str     0x0000000000002fa6      0x26c /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_str     0x0000000000002fa6      0x26c /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x9ef (size before relaxing)
- .debug_str     0x0000000000003212       0xed /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_str     0x0000000000003212       0xed /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                         0x2b7 (size before relaxing)
- .debug_str     0x00000000000032ff      0x183 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
+ .debug_str     0x00000000000032ff      0x183 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
                                         0x33f (size before relaxing)
- .debug_str     0x0000000000003482      0x367 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_str     0x0000000000003482      0x367 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                         0x74c (size before relaxing)
- .debug_str     0x00000000000037e9       0x6b /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_str     0x00000000000037e9       0x6b /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
                                         0x177 (size before relaxing)
- .debug_str     0x0000000000003854       0xbb /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_str     0x0000000000003854       0xbb /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
                                         0x240 (size before relaxing)
- .debug_str     0x000000000000390f      0x52c /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_str     0x000000000000390f      0x52c /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x95d (size before relaxing)
- .debug_str     0x0000000000003e3b      0x13a /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_str     0x0000000000003e3b      0x13a /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
                                         0x37c (size before relaxing)
  .debug_str     0x0000000000003f75      0x138 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                                         0x1de (size before relaxing)
@@ -3174,44 +3174,44 @@ OUTPUT(/home/pedro/esp/exemplo1/build/bootloader/bootloader.elf elf32-xtensa-le)
                                         0x258 (size before relaxing)
 
 .comment        0x0000000000000000       0x3a
- .comment       0x0000000000000000       0x3a /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
+ .comment       0x0000000000000000       0x3a /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3b (size before relaxing)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .comment       0x000000000000003a       0x3b /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .comment       0x000000000000003a       0x3b /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .comment       0x000000000000003a       0x3b /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .xtensa.info    0x0000000000000000       0x38
- .xtensa.info   0x0000000000000000       0x38 /home/pedro/esp/exemplo1/build/bootloader/main/libmain.a(bootloader_start.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/log/liblog.a(log.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(cpu_util.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_init.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo1/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xtensa.info   0x0000000000000000       0x38 /home/pedro/esp/exemplo3/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/log/liblog.a(log.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/exemplo3/build/bootloader/soc/libsoc.a(rtc_time.o)
  .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .xtensa.info   0x0000000000000038        0x0 /home/pedro/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)

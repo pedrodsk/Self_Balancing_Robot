@@ -40,7 +40,7 @@ syscall_table.o: \
  /home/pedro/esp/esp-idf/components/vfs/include/esp_vfs.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -176,7 +176,7 @@ syscall_table.o: \
 
 /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

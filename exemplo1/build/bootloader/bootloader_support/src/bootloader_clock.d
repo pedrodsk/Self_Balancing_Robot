@@ -13,7 +13,7 @@ src/bootloader_clock.o: \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_dport_access.h \
- /home/pedro/esp/exemplo1/build/bootloader/../include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/bootloader/../include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -54,7 +54,7 @@ src/bootloader_clock.o: \
 
 /home/pedro/esp/esp-idf/components/esp32/include/esp_dport_access.h:
 
-/home/pedro/esp/exemplo1/build/bootloader/../include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/bootloader/../include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

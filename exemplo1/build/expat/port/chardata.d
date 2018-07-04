@@ -2,7 +2,7 @@ port/chardata.o: /home/pedro/esp/esp-idf/components/expat/port/chardata.c \
  /home/pedro/esp/esp-idf/components/expat/include/expat/expat_config.h \
  /home/pedro/esp/esp-idf/components/expat/port/include/minicheck.h \
  /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/pedro/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -37,7 +37,7 @@ port/chardata.o: /home/pedro/esp/esp-idf/components/expat/port/chardata.c \
 
 /home/pedro/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/stdlib.h:
 

@@ -1,6 +1,6 @@
 pm_trace.o: /home/pedro/esp/esp-idf/components/esp32/pm_trace.c \
  /home/pedro/esp/esp-idf/components/esp32/pm_trace.h \
- /home/pedro/esp/exemplo1/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/driver/include/driver/gpio.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
@@ -42,7 +42,7 @@ pm_trace.o: /home/pedro/esp/esp-idf/components/esp32/pm_trace.c \
 
 /home/pedro/esp/esp-idf/components/esp32/pm_trace.h:
 
-/home/pedro/esp/exemplo1/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/driver/include/driver/gpio.h:
 

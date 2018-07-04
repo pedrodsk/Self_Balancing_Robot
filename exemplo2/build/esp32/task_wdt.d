@@ -24,7 +24,7 @@ task_wdt.o: /home/pedro/esp/esp-idf/components/esp32/task_wdt.c \
  /home/pedro/esp/esp-idf/components/newlib/include/alloca.h \
  /home/pedro/esp/esp-idf/components/newlib/include/string.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/pedro/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/pedro/esp/esp-idf/components/esp32/include/xtensa/hal.h \
@@ -146,7 +146,7 @@ task_wdt.o: /home/pedro/esp/esp-idf/components/esp32/task_wdt.c \
 
 /home/pedro/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

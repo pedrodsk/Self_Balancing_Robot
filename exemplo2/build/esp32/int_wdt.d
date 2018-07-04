@@ -1,5 +1,5 @@
 int_wdt.o: /home/pedro/esp/esp-idf/components/esp32/int_wdt.c \
- /home/pedro/esp/exemplo2/build/include/sdkconfig.h \
+ /home/pedro/esp/exemplo3/build/include/sdkconfig.h \
  /home/pedro/esp/esp-idf/components/newlib/include/stdint.h \
  /home/pedro/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/pedro/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -88,7 +88,7 @@ int_wdt.o: /home/pedro/esp/esp-idf/components/esp32/int_wdt.c \
  /home/pedro/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/pedro/esp/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/home/pedro/esp/exemplo2/build/include/sdkconfig.h:
+/home/pedro/esp/exemplo3/build/include/sdkconfig.h:
 
 /home/pedro/esp/esp-idf/components/newlib/include/stdint.h:
 
