@@ -51,5 +51,5 @@ void app_main()
   xTaskCreate(&thread4, "thread4", 2048, NULL, 1, NULL);
 
   printf(" Escalonador iniciado\n"); 
-  vTaskStartScheduler();
+  
 }
