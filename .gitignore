@@ -1,0 +1,13 @@
+# lembre de colocar o nome da pasta sem o ponto na frente
+# Para ignorar todos arquivos e sub-pastas localizados na pasta metadata/plugins/
+#metadata/plugins/nome-do-plugin
+
+# Para ignorar todos os arquivos e sub-pastas da pasta metadata/
+#metadata/
+exemplo0/build/
+exemplo1/build/
+exemplo2/build/
+exemplo3/build/
+exemplo4/build/
+exemplo5/build/
+exemplo6/build/
