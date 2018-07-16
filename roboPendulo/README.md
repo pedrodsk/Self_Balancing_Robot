@@ -1,3 +1,7 @@
-# Sistema Operacional em Tempo Real - UFCG
-# Projeto de um robo self balancing modelado com o pendulo invertido e controle PID
-# 
+#Robo Self balancing 
+Projeto de um robo self balancing modelado com o pendulo invertido, filtro de kalman e controle PID
+## Sistema Operacional em Tempo Real - UFCG 
+### Prerequisites
+ESP-IDF e i2c library
+####Autores: Bruna e Pedro - 2018
+
