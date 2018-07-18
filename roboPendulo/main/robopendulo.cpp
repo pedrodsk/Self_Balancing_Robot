@@ -17,7 +17,10 @@ QueueHandle_t xQueue2;
 bool flag1,flag2;
 uint32_t last1 = 0;
 TickType_t xLastWakeTime;
-double deltaTime = 0.000594;
+TickType_t xLastWakeTime1;
+TickType_t xLastWakeTime2;
+
+double deltaTime = 0.002;
 
 
 //Prototipo das Funções
@@ -47,11 +50,11 @@ extern "C" void app_main() {
 	roll = atan(ay/sqrt(ax * ax + az * az)) * RAD_TO_DEG;
 */
 	//Criação de Threads
-	xTaskCreate(&vThread1, "MPU6050", 2048, NULL, 1, NULL);
+	xTaskCreate(&vThread1, "MPU6050", 2048, NULL, 2, NULL);
 	xTaskCreate(&vThread2, "Motor Esquerda", 2048, NULL, 1, NULL);
 	xTaskCreate(&vThread3, "Motor Direita", 2048, NULL, 1, NULL);
-	xQueue1 = xQueueCreate( 1, sizeof( double ) );
-	xQueue2 = xQueueCreate( 1, sizeof( double ) );
+	xQueue1 = xQueueCreate( 2, sizeof( double ) );
+	xQueue2 = xQueueCreate( 2, sizeof( double ) );
 }
 
 void vThread1(void *pvParameter)
@@ -65,29 +68,31 @@ void vThread1(void *pvParameter)
 	double pitch,fpitch;
 	//roll,froll;
 	double res;
-	KALMAN pfilter(0.005);
-	KALMAN rfilter(0.005);
+	KALMAN pfilter(0.002);
+	KALMAN rfilter(0.002);
 	uint32_t lasttime = 0;
 	uint32_t count = 0;
 	//uint32_t last1 = 0;
 	BaseType_t xStatus1;
 	BaseType_t xStatus2;
-	//TickType_t xLastWakeTime;
 
 	ESP_ERROR_CHECK( myI2C.begin(GPIO_NUM_21, GPIO_NUM_22, 400000));
-	vTaskDelay(10 / portTICK_PERIOD_MS);
+	vTaskDelay(200 / portTICK_PERIOD_MS);
 	buffer[0] = 7; //1khz
 	buffer[1] = 0x00; //dlpf desativado
 	buffer[2] = 0x00; //fundo de escala gyro 250 graus/s
 	buffer[3] = 0x00;//gyro +-2g
 	myI2C.setTimeout(10);
 	myI2C.writeBit(0x68, 0x6B, 6, 0);//desativar modo sleep
+  vTaskDelay(200 / portTICK_PERIOD_MS);
 	myI2C.writeBytes(0x68, 0x19,4,buffer);
 	vTaskDelay(200 / portTICK_PERIOD_MS);
 
-	while(1)
-	{
-		ESP_ERROR_CHECK(myI2C.readBytes(0x68, 0x3b, 12, buffer));
+  xLastWakeTime = xTaskGetTickCount();
+
+  while(1)
+  {
+    ESP_ERROR_CHECK(myI2C.readBytes(0x68, 0x3b, 12, buffer));
   		ax = (int16_t)((buffer[0] << 8) | buffer[1]); // ([ MSB ] [ LSB ])
   		ay = (int16_t)((buffer[2] << 8) | buffer[3]); // ([ MSB ] [ LSB ])
   		az = (int16_t)((buffer[4] << 8) | buffer[5]); // ([ MSB ] [ LSB ])
@@ -103,9 +108,9 @@ void vThread1(void *pvParameter)
   	//	gx = gyrox / 131.0;
   	//	gz = gyroz / 131.0;
 
-  		fpitch = pfilter.filter(-pitch, gy);
+  		fpitch = pfilter.filter(pitch, gy);
   	//	froll = rfilter.filter(-roll, gx);
-  	
+
   	/*
   		xLastWakeTime = xTaskGetTickCount();
   		if((xLastWakeTime-last1)>=100){
@@ -117,7 +122,7 @@ void vThread1(void *pvParameter)
   		if(esp_log_timestamp() / 1000 != lasttime) {
   			lasttime = esp_log_timestamp() / 1000;
   			deltaTime = (1.0/count);
-  	//		ESP_LOGI("mpu6050", "Samples: %d", count);
+  			ESP_LOGI("mpu6050", "Samples: %d", count);
   	//		ESP_LOGI("mpu6050", "Samples: %lf", deltaTime);
   			count = 0;
   	//		ESP_LOGI("mpu6050", "xLastWakeTime ( %d)",xLastWakeTime);
@@ -137,18 +142,19 @@ void vThread1(void *pvParameter)
   			printf( "A fila do Motor Esquerda está cheia.\r\n" );
   		}
   		else
-  		flag1 = true;
+        flag1 = true;
 
-  		if( xStatus2 != pdPASS )
-  		{
-  			printf( "A fila do Motor Direita está cheia.\r\n" );
-  		}
-  		else
-  		flag2 = true;
-  	}
+      if( xStatus2 != pdPASS )
+      {
+       printf( "A fila do Motor Direita está cheia.\r\n" );
+     }
+     else
+      flag2 = true;
+    vTaskDelayUntil( &xLastWakeTime, 1 );
   }
+}
 
-  
+
   void vThread2(void *pvParameter) // Motor Esquerda
   {
   	//variaveis
@@ -194,6 +200,7 @@ void vThread1(void *pvParameter)
 
     //  Fade
     //    ledc_fade_func_install(0); 
+    xLastWakeTime1 = xTaskGetTickCount();
 
     while(1) {
         	/*
@@ -230,9 +237,9 @@ void vThread1(void *pvParameter)
     			flag1=false;
     		}
     	}
-    //    	vTaskDelay(10 / portTICK_PERIOD_MS);
+      vTaskDelayUntil( &xLastWakeTime1, 1 );
     }
-}
+  }
 
     void vThread3(void *pvParameter) // Motor Direita
     {
@@ -271,6 +278,7 @@ void vThread1(void *pvParameter)
         ledc_channel_config(&ledc_channel2);
         ledc_channel_config(&ledc_channel3);
 
+        xLastWakeTime2 = xTaskGetTickCount();
 
         while(1){
         	/*
@@ -305,54 +313,54 @@ void vThread1(void *pvParameter)
         			}
         			flag2=false;
         		}
-    //    	vTaskDelay(10 / portTICK_PERIOD_MS);
-        	}
+            vTaskDelayUntil( &xLastWakeTime2, 1 );
+          }
         }
-    }
+      }
 
 
     //funcao
 
-double funcaoPID(double output){
+      double funcaoPID(double output){
 
 
 //    xLastWakeTime = (xTaskGetTickCount()-last1)/1000.0;
 //    last1 = xTaskGetTickCount();
 //    ESP_LOGI("pid", "deltatime: %d", xLastWakeTime);
-  int OUTMAX = 900,
-  OUTMIN = -900;
+        int OUTMAX = 950,
+        OUTMIN = -950;
 
-  double 
-  kp = 300.0, //55*0.6
-  ki = 500.0, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
-  kd = 0.0, //Td = 0.125*Pcr //Kd = Kp*Td 
+        double 
+  kp = 123.7703, //55*0.6
+  ki = 9.3076, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
+  kd = 9.0482, //Td = 0.125*Pcr //Kd = Kp*Td 
   P  = 0.0,
   I  = 0.0,
   D  = 0.0,
   outputPID = 0.0;
 
   double 
-  setPoint = +5.5,
+  setPoint = +10.0,
   error = 0.0,
   lastInput = 0.0;  
 
   /*Calculo do Erro*/
   error = setPoint - output;
-
+  deltaTime = 0.02;
   P = error * kp;
   I+= (error * ki)*deltaTime;
   D = ((lastInput - output)*kd)/deltaTime;
   lastInput = output;
-
+/*
   if(I > OUTMAX){
     I = OUTMAX;
   }
   else if(I <= OUTMIN){
     I = OUTMIN;
   }
-
+*/
   //PID
-  outputPID=P+I+(-1*D);
+  outputPID=P+I+(+1*D);
 
   if(outputPID > OUTMAX){
     outputPID = OUTMAX;
