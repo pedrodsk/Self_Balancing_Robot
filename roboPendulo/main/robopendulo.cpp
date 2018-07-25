@@ -20,9 +20,6 @@ TickType_t xLastWakeTime;
 TickType_t xLastWakeTime1;
 TickType_t xLastWakeTime2;
 
-double deltaTime = 0.002;
-
-
 //Prototipo das Funções
 double funcaoPID(double output);
 //Prototipos Threads
@@ -30,8 +27,52 @@ void vThread1(void *pvParameter);
 void vThread2(void *pvParameter);
 void vThread3(void *pvParameter);
 
+   //funcao
+double 
+  kp = 40.3230, //55*0.6
+  ki = 0.0014, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
+  kd = 1.4816,
+  outputSum = 0.0,
+  error = 0.0,
+  deltaTime = 0.0,
+  lastOutput = 0.0;
+  int outMax = 1500,
+  outMin = -1500;
+
+  double funcaoPID(double output){
+
+    double setPoint=0.0;
+    //deltaTime =0.008;
+    
+    //Error
+    error = setPoint - output;
+    
+    //I
+    outputSum+= (ki * error)*deltaTime;
+
+    if(outputSum > outMax) outputSum= outMax;
+    else if(outputSum < outMin) outputSum= outMin;
+
+    //D
+    double dOutput = ((output - lastOutput)*kd)/deltaTime;
+
+    //P
+    double outputPID = kp * error;
+
+    outputPID += outputSum - kd * dOutput;
+
+    if(outputPID > outMax) outputPID = outMax;
+    else if(outputPID < outMin) outputPID = outMin;
+    
+    lastOutput = output;
+    //lastTime = now;
+    return outputPID;
+
+      /*Remember some variables for next time*/
+  }
+
 //Main
-extern "C" void app_main() {
+  extern "C" void app_main() {
 //void app_main() {
 	//calibração do sensor
 	//configuração do I2C
@@ -50,15 +91,15 @@ extern "C" void app_main() {
 	roll = atan(ay/sqrt(ax * ax + az * az)) * RAD_TO_DEG;
 */
 	//Criação de Threads
-	xTaskCreate(&vThread1, "MPU6050", 2048, NULL, 2, NULL);
-	xTaskCreate(&vThread2, "Motor Esquerda", 2048, NULL, 1, NULL);
-	xTaskCreate(&vThread3, "Motor Direita", 2048, NULL, 1, NULL);
-	xQueue1 = xQueueCreate( 2, sizeof( double ) );
-	xQueue2 = xQueueCreate( 2, sizeof( double ) );
-}
+   xTaskCreate(&vThread1, "MPU6050", 2048, NULL, 2, NULL);
+   xTaskCreate(&vThread2, "Motor Esquerda", 2048, NULL, 1, NULL);
+   xTaskCreate(&vThread3, "Motor Direita", 2048, NULL, 1, NULL);
+   xQueue1 = xQueueCreate( 2, sizeof( double ) );
+   xQueue2 = xQueueCreate( 2, sizeof( double ) );
+ }
 
-void vThread1(void *pvParameter)
-{
+ void vThread1(void *pvParameter)
+ {
 	I2C_t& myI2C = i2c0;  // i2c0 and i2c1 are the default objects
 	uint8_t buffer[14];
 	double ax, ay, az;
@@ -72,7 +113,7 @@ void vThread1(void *pvParameter)
 	KALMAN rfilter(0.002);
 	uint32_t lasttime = 0;
 	uint32_t count = 0;
-	//uint32_t last1 = 0;
+	uint32_t last1 = 0;
 	BaseType_t xStatus1;
 	BaseType_t xStatus2;
 
@@ -85,8 +126,8 @@ void vThread1(void *pvParameter)
 	myI2C.setTimeout(10);
 	myI2C.writeBit(0x68, 0x6B, 6, 0);//desativar modo sleep
   vTaskDelay(200 / portTICK_PERIOD_MS);
-	myI2C.writeBytes(0x68, 0x19,4,buffer);
-	vTaskDelay(200 / portTICK_PERIOD_MS);
+  myI2C.writeBytes(0x68, 0x19,4,buffer);
+  vTaskDelay(200 / portTICK_PERIOD_MS);
 
   xLastWakeTime = xTaskGetTickCount();
 
@@ -108,7 +149,7 @@ void vThread1(void *pvParameter)
   	//	gx = gyrox / 131.0;
   	//	gz = gyroz / 131.0;
 
-  		fpitch = pfilter.filter(pitch, gy);
+  		fpitch = pfilter.filter(-pitch, gy);
   	//	froll = rfilter.filter(-roll, gx);
 
   	/*
@@ -122,21 +163,21 @@ void vThread1(void *pvParameter)
   		if(esp_log_timestamp() / 1000 != lasttime) {
   			lasttime = esp_log_timestamp() / 1000;
   			deltaTime = (1.0/count);
-  			ESP_LOGI("mpu6050", "Samples: %d", count);
-  	//		ESP_LOGI("mpu6050", "Samples: %lf", deltaTime);
+  	//		ESP_LOGI("mpu6050", "Samples: %d", count);
+  			ESP_LOGI("mpu6050", "deltaTime: %lf", deltaTime);
   			count = 0;
   	//		ESP_LOGI("mpu6050", "xLastWakeTime ( %d)",xLastWakeTime);
   	//		ESP_LOGI("mpu6050", "Acc: ( %.3lf, %.3lf, %.3lf)", ax, ay, az);
   	//		ESP_LOGI("mpu6050", "Gyro: ( %.3f, %.3f, %.3f)", gx, gy, gz);
   	//		ESP_LOGI("mpu6050", "Pitch: %.3lf", pitch);
-  	//		ESP_LOGI("mpu6050", "Roll: %.3lf", roll);
+  			ESP_LOGI("mpu6050", "Erro: %.3lf", error);
   			ESP_LOGI("mpu6050", "FPitch: %.3lf", fpitch);
   	//		ESP_LOGI("mpu6050", "FRoll: %.3lf", froll);
-  	//		ESP_LOGI("mpu6050", "FPitch: %.3lf", res);
+  	//		ESP_LOGI("PID", "RES: %.3lf", res);
   		}
   		res = funcaoPID(fpitch);
-  		xStatus1 = xQueueSendToBack( xQueue1, &res, pdMS_TO_TICKS( 10 ) );
-  		xStatus2 = xQueueSendToBack( xQueue2, &res, pdMS_TO_TICKS( 10 ) );
+  		xStatus1 = xQueueSendToBack( xQueue1, &res, pdMS_TO_TICKS( 0 ) );
+  		xStatus2 = xQueueSendToBack( xQueue2, &res, pdMS_TO_TICKS( 0 ) );
   		if( xStatus1 != pdPASS )
   		{
   			printf( "A fila do Motor Esquerda está cheia.\r\n" );
@@ -150,7 +191,7 @@ void vThread1(void *pvParameter)
      }
      else
       flag2 = true;
-    vTaskDelayUntil( &xLastWakeTime, 1 );
+    vTaskDelayUntil( &xLastWakeTime, 4 );
   }
 }
 
@@ -169,7 +210,7 @@ void vThread1(void *pvParameter)
      */
   	ledc_timer_config_t ledc_timer;
     ledc_timer.duty_resolution = LEDC_TIMER_11_BIT, // resolution of PWM duty
-    ledc_timer.freq_hz = 20000,                      // frequency of PWM signal
+    ledc_timer.freq_hz = 5000,                      // frequency of PWM signal
     ledc_timer.speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
     ledc_timer.timer_num = LEDC_TIMER_0; //index 
 
@@ -253,7 +294,7 @@ void vThread1(void *pvParameter)
         //configurar timer 1
     	ledc_timer_config_t ledc_timer;
         ledc_timer.duty_resolution = LEDC_TIMER_11_BIT, // resolution of PWM duty
-        ledc_timer.freq_hz = 20000,                      // frequency of PWM signal
+        ledc_timer.freq_hz = 5000,                      // frequency of PWM signal
         ledc_timer.speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
         ledc_timer.timer_num = LEDC_TIMER_1; //index 
 
@@ -319,56 +360,3 @@ void vThread1(void *pvParameter)
       }
 
 
-    //funcao
-
-      double funcaoPID(double output){
-
-
-//    xLastWakeTime = (xTaskGetTickCount()-last1)/1000.0;
-//    last1 = xTaskGetTickCount();
-//    ESP_LOGI("pid", "deltatime: %d", xLastWakeTime);
-        int OUTMAX = 950,
-        OUTMIN = -950;
-
-        double 
-  kp = 123.7703, //55*0.6
-  ki = 9.3076, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
-  kd = 9.0482, //Td = 0.125*Pcr //Kd = Kp*Td 
-  P  = 0.0,
-  I  = 0.0,
-  D  = 0.0,
-  outputPID = 0.0;
-
-  double 
-  setPoint = +10.0,
-  error = 0.0,
-  lastInput = 0.0;  
-
-  /*Calculo do Erro*/
-  error = setPoint - output;
-  deltaTime = 0.02;
-  P = error * kp;
-  I+= (error * ki)*deltaTime;
-  D = ((lastInput - output)*kd)/deltaTime;
-  lastInput = output;
-/*
-  if(I > OUTMAX){
-    I = OUTMAX;
-  }
-  else if(I <= OUTMIN){
-    I = OUTMIN;
-  }
-*/
-  //PID
-  outputPID=P+I+(+1*D);
-
-  if(outputPID > OUTMAX){
-    outputPID = OUTMAX;
-  }
-  else if(outputPID <= OUTMIN){
-    outputPID = OUTMIN;
-  }
-
-  return outputPID;
-
-}
