@@ -5,20 +5,20 @@
 % diametro da roda 68mm
 % altura do corpo = 12.5cm
 % 
-% Especificações dos motores:
-% – Tensão de Operação: 3-6VDC
-% – Torque: 0,35 Kgf/cm (3V) e 0,80 Kgf/cm (6V)
-% – Sistema magnético com anti-interferência
-% – Engrenagem com eixo duplo
-% – Redução: 1:48
-% – Corrente sem carga: =200mA @ 6V, =150mA @ 3V
-% – Velocidade sem carga: 200 ± 10%RPM @ 6V, 90 ± 10%RPM @ 3V
+% Especificaï¿½ï¿½es dos motores:
+% ï¿½ Tensï¿½o de Operaï¿½ï¿½o: 3-6VDC
+% ï¿½ Torque: 0,35 Kgf/cm (3V) e 0,80 Kgf/cm (6V)
+% ï¿½ Sistema magnï¿½tico com anti-interferï¿½ncia
+% ï¿½ Engrenagem com eixo duplo
+% ï¿½ Reduï¿½ï¿½o: 1:48
+% ï¿½ Corrente sem carga: =200mA @ 6V, =150mA @ 3V
+% ï¿½ Velocidade sem carga: 200 ï¿½ 10%RPM @ 6V, 90 ï¿½ 10%RPM @ 3V
 %torque 0.8kgf/cm -> 0.078 Nm
 
 
 r = 34*10^(-3);
 L = 8*10^(-2);
-mp = 304*10^(-3);
+mp = 300*10^(-3);
 mw = 35*10^(-3);
 ip = mp*L^2; %MP*L^2;
 iw=mw*r^2; %1/2*MW*r^2
@@ -44,7 +44,7 @@ den = [A B C D];
 H = tf(num,den);
 % pzmap(H);
 % grid(on);
-kp = 39.4946;
-ki = 0.0215;
-kd = 15.3942;
+kp = 40.3230;
+ki = 0.0014;
+kd = 1.4816;
 %model(pidexemplo1);
