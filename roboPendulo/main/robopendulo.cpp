@@ -29,15 +29,15 @@ void vThread3(void *pvParameter);
 
    //funcao
 double 
-  kp = 40.3230, //55*0.6
-  ki = 0.0014, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
-  kd = 1.4816,
+  kp = 5.0, //55*0.6
+  ki = 0.0, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
+  kd = 0.0,
   outputSum = 0.0,
   error = 0.0,
   deltaTime = 0.0,
   lastOutput = 0.0;
-  int outMax = 1500,
-  outMin = -1500;
+  int outMax = 150,
+  outMin = -150;
 
   double funcaoPID(double output){
 
@@ -164,18 +164,19 @@ double
   			lasttime = esp_log_timestamp() / 1000;
   			deltaTime = (1.0/count);
   	//		ESP_LOGI("mpu6050", "Samples: %d", count);
-  			ESP_LOGI("mpu6050", "deltaTime: %lf", deltaTime);
+  	//		ESP_LOGI("mpu6050", "deltaTime: %lf", deltaTime);
   			count = 0;
   	//		ESP_LOGI("mpu6050", "xLastWakeTime ( %d)",xLastWakeTime);
   	//		ESP_LOGI("mpu6050", "Acc: ( %.3lf, %.3lf, %.3lf)", ax, ay, az);
   	//		ESP_LOGI("mpu6050", "Gyro: ( %.3f, %.3f, %.3f)", gx, gy, gz);
   	//		ESP_LOGI("mpu6050", "Pitch: %.3lf", pitch);
-  			ESP_LOGI("mpu6050", "Erro: %.3lf", error);
+  	//		ESP_LOGI("mpu6050", "Erro: %.3lf", error);
   			ESP_LOGI("mpu6050", "FPitch: %.3lf", fpitch);
   	//		ESP_LOGI("mpu6050", "FRoll: %.3lf", froll);
-  	//		ESP_LOGI("PID", "RES: %.3lf", res);
+  			ESP_LOGI("PID", "RES: %.3lf", res);
   		}
   		res = funcaoPID(fpitch);
+      //if (res < 200) res = res*3;
   		xStatus1 = xQueueSendToBack( xQueue1, &res, pdMS_TO_TICKS( 0 ) );
   		xStatus2 = xQueueSendToBack( xQueue2, &res, pdMS_TO_TICKS( 0 ) );
   		if( xStatus1 != pdPASS )
@@ -209,7 +210,7 @@ double
      * that will be used by LED Controller
      */
   	ledc_timer_config_t ledc_timer;
-    ledc_timer.duty_resolution = LEDC_TIMER_11_BIT, // resolution of PWM duty
+    ledc_timer.duty_resolution = LEDC_TIMER_8_BIT, // resolution of PWM duty
     ledc_timer.freq_hz = 5000,                      // frequency of PWM signal
     ledc_timer.speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
     ledc_timer.timer_num = LEDC_TIMER_0; //index 
@@ -262,23 +263,25 @@ double
         //			ESP_LOGI("Motor Esquerda", "RES: %.3lf", res);
 
     			if(res > 0){
-    				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, 0) ); 
-    				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0) );
 
-    				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1, abs(res)) );
-    				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1) );
-    			}
-    			else{
-    				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, abs(res)) ); 
-    				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0) );
+            ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, 0) ); 
+            ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0) );
 
-    				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1, 0) );
-    				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1) );
-    			}
-    			flag1=false;
-    		}
-    	}
-      vTaskDelayUntil( &xLastWakeTime1, 1 );
+            ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1, abs(res)) );
+            ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1) );
+          }
+          else{
+
+            ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, abs(res)) ); 
+            ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0) );
+
+            ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1, 0) );
+            ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_1) );
+          }
+          flag1=false;
+        }
+      }
+    // vTaskDelayUntil( &xLastWakeTime1, 1 );
     }
   }
 
@@ -293,7 +296,7 @@ double
 
         //configurar timer 1
     	ledc_timer_config_t ledc_timer;
-        ledc_timer.duty_resolution = LEDC_TIMER_11_BIT, // resolution of PWM duty
+        ledc_timer.duty_resolution = LEDC_TIMER_8_BIT, // resolution of PWM duty
         ledc_timer.freq_hz = 5000,                      // frequency of PWM signal
         ledc_timer.speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
         ledc_timer.timer_num = LEDC_TIMER_1; //index 
@@ -339,22 +342,24 @@ double
         		else{
         //	ESP_LOGI("Motor Direita", "FPitch: %.3lf", res);
         			if(res > 0){
-        				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2, 0) ); 
-        				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2) );
 
-        				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3, abs(res)) );
-        				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3) );
-        			}
-        			else{
-        				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2, abs(res)) ); 
-        				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2) );
+                ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2, 0) ); 
+                ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2) );
 
-        				ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3, 0) );
-        				ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3) );
-        			}
-        			flag2=false;
-        		}
-            vTaskDelayUntil( &xLastWakeTime2, 1 );
+                ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3, abs(res)) );
+                ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3) );
+              }
+              else{
+
+                ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2, abs(res)) ); 
+                ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_2) );
+
+                ESP_ERROR_CHECK( ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3, 0) );
+                ESP_ERROR_CHECK( ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_3) );
+              }
+              flag2=false;
+            }
+          //  vTaskDelayUntil( &xLastWakeTime2, 1 );
           }
         }
       }
