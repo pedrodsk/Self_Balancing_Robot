@@ -29,19 +29,19 @@ void vThread3(void *pvParameter);
 
    //funcao
 double 
-  kp = 5.0, //55*0.6
-  ki = 0.0, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
-  kd = 0.0,
+  kp = 144.0108, //55*0.6
+  ki = 79.0073, //Ti = Pcr/2(0.5/2 = 0.25) //KI = kp/pcr
+  kd = 8.3530,
   outputSum = 0.0,
   error = 0.0,
   deltaTime = 0.0,
   lastOutput = 0.0;
-  int outMax = 150,
-  outMin = -150;
+  int outMax = 400,
+  outMin = -400;
 
   double funcaoPID(double output){
 
-    double setPoint=0.0;
+    double setPoint=+2.0;
     //deltaTime =0.008;
     
     //Error
@@ -164,7 +164,7 @@ double
   			lasttime = esp_log_timestamp() / 1000;
   			deltaTime = (1.0/count);
   	//		ESP_LOGI("mpu6050", "Samples: %d", count);
-  	//		ESP_LOGI("mpu6050", "deltaTime: %lf", deltaTime);
+  			ESP_LOGI("mpu6050", "deltaTime: %lf", deltaTime);
   			count = 0;
   	//		ESP_LOGI("mpu6050", "xLastWakeTime ( %d)",xLastWakeTime);
   	//		ESP_LOGI("mpu6050", "Acc: ( %.3lf, %.3lf, %.3lf)", ax, ay, az);
@@ -192,7 +192,7 @@ double
      }
      else
       flag2 = true;
-    vTaskDelayUntil( &xLastWakeTime, 4 );
+    vTaskDelayUntil( &xLastWakeTime, 1 );
   }
 }
 
@@ -210,7 +210,7 @@ double
      * that will be used by LED Controller
      */
   	ledc_timer_config_t ledc_timer;
-    ledc_timer.duty_resolution = LEDC_TIMER_8_BIT, // resolution of PWM duty
+    ledc_timer.duty_resolution = LEDC_TIMER_10_BIT, // resolution of PWM duty
     ledc_timer.freq_hz = 5000,                      // frequency of PWM signal
     ledc_timer.speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
     ledc_timer.timer_num = LEDC_TIMER_0; //index 
@@ -296,7 +296,7 @@ double
 
         //configurar timer 1
     	ledc_timer_config_t ledc_timer;
-        ledc_timer.duty_resolution = LEDC_TIMER_8_BIT, // resolution of PWM duty
+        ledc_timer.duty_resolution = LEDC_TIMER_10_BIT, // resolution of PWM duty
         ledc_timer.freq_hz = 5000,                      // frequency of PWM signal
         ledc_timer.speed_mode = LEDC_HIGH_SPEED_MODE,           // timer mode
         ledc_timer.timer_num = LEDC_TIMER_1; //index 
