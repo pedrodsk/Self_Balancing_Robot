@@ -1,0 +1,15 @@
+1. We introduce a pole at origin to cancel the effect of zero of the plant at the origin. The integral has cancelled the zero at origin.
+
+2. Now add two zeros of the controller. These zeroes will provide finite terminus points to the two branches of locus on the LHS of the s-plane which were, otherwise, approaching to infinity. The zeroes have to be added such that we can achieve the design requirements of settling time and the damping ratio.
+
+3. We add two real poles at -10. The resulting root locus has the following form. K MIN = 0.8. Below K MIN , roots shift in right-half and the system becomes unstable. For the loop stability it is required that the loop gain should be greater than the given value (i.e., K > K MIN = 0.8).
+
+4. Now we set the gain such that roots of the characteristics equation correspond to ζ = 0.75 and TS MAX = 0.5 So we select roots (selected by cross) as shown in figure. These roots correspond to value of k = 8.
+
+1. Introduzimos um pólo na origem para cancelar o efeito de zero da planta na origem. A integral cancelou o zero na origem. O locus da raiz agora se torna tão
+
+2. Agora adicione dois zeros do controlador. Esses zeros fornecerão pontos terminais terminados aos dois ramos do locus no LHS do plano s que, de outra maneira, se aproximariam do infinito. Os zeros devem ser adicionados para que possamos atingir os requisitos de projeto do tempo de acomodação e da taxa de amortecimento.
+
+3. Adicionamos dois pólos reais a -10. O locus de raiz resultante tem o seguinte formato. K MIN = 0,8. Abaixo de K MIN, as raízes se deslocam para a metade direita e o sistema se torna instável. Para a estabilidade do loop é necessário que o ganho do loop seja maior que o valor dado (ou seja, K> K MIN = 0,8).
+
+4. Agora, definimos o ganho de forma que as raízes da equação de características correspondam a ζ = 0,75 e TS MAX = 0,5. Assim, selecionamos raízes (selecionadas por cruz), como mostrado na figura. Essas raízes correspondem ao valor de k = 8

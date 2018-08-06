@@ -1,0 +1,40 @@
+% ip_data is a MAT File (MATLAB specific binary file),
+% with variables I, Kf, Km, Lp, M, b, g, l, m, r, tau
+%run ip_data.m
+Kp = 1 / ((M + m) * g);
+K = Kf * Kp * Km * r * (M + m);
+Ap = sqrt ((M + m) * m * g * l / ((M + m)*(I + (m * (l ^ 2)))- ((m * l)^2)));
+
+% G1(s) = Theta(s) / U(s)
+% ø represents a small angle from the vertical upward direction,
+% u represents the input (impulse) force on the cart by pulley chain mechanism.
+num_Th_U = [0 0 Kp];
+den_Th_U = [Ap^(-2) 0 -1];
+Th_U = tf (num_Th_U, den_Th_U);
+
+% G2(s) = U(s) / E(s)
+% u represents the input force on the cart by the pulley chain mechanism,
+% e represents the input to the motor driving pulley-chain mechanism.
+num_U_E = [((Km * (M + m))*r) 0];
+den_U_E = [tau 1];
+U_E = tf (num_U_E, den_U_E);
+disp ' '
+
+% G(s) = Theta(s) / E(s)
+% Open Loop Transfer Function (Without Feedback)
+disp 'Forward Path Transfer Function of Inverted Pendulum System is:'
+G = series (U_E, Th_U)
+
+% H(s) (Feedback)
+num_H = Kf;
+den_H = 1;
+H = tf (num_H, den_H);
+
+% Closed Loop (Unity Feedback) Transfer Function
+% Gc(s) = G(s) / (1 + G(s) * H(s))
+disp 'Closed-Loop Transfer Function of Inverted Pendulum System is:'
+Gc = feedback (G, H)
+
+% GH(s)
+% Open Loop Transfer Function
+GH = series (G, H);
